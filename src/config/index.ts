@@ -1,97 +1,98 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Inioluwa Akintokun — Full-Stack Developer",
+  author: "Inioluwa Gloria Akintokun",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Full-Stack web developer specializing in web application development and maintenance for real clients.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/ini-small1.jpeg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "Twitter", href: "https://x.com/INI_TOKUN" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/inioluwa-akintokun/" },
+    { text: "Github", href: "https://github.com/glowzaq" },
   ],
-  socialImage: "/zen-og.png",
+  socialImage: "/new-port.png",
   canonicalURL: "https://astro-zen.vercel.app",
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Inioluwa Akintokun",
+    specialty: "Full-Stack Developer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Full-Stack web developer specializing in web application development and maintenance for real clients.",
+    email: "inioluwaakintokun@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "SQI College of ICT",
+      position: "Cybersecurity Instructor",
+      startDate: "May 2025",
+      endDate: "Present",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Instruct 20 + students in network and application security, translating complex concepts into accessible lessons.",
+        "Teach system architecture fundamentals spanning OS internals, TCP / IP, cloud networking, and encryption protocols.",
+        "Deliver hands - on labs in vulnerability scanning, packet analysis, and Linux / Windows system hardening.",
+        "Develop structured curriculum covering IAM, secure SDLC, and defensive network architecture(VPC, WAF, ACLs)."
+      ]
+    },
+    {
+      company: "Freelance",
+      position: "Full-stack Developer",
+      startDate: "June 2026",
+      endDate: "Present",
+      summary: [
+        "Architected a full-stack church management platform from the ground up using Next.js, TypeScript, Prisma, and PostgreSQL, now used by 200+ active members to manage events, attendance, donations, and announcements.",
+        "Identified a critical data-integrity flaw where overlapping Members and Users tables caused conflicting records redesigned the schema and merged them into a single unified structure, eliminating the conflict at the source.",
+        "Containerized the entire application with Docker to standardize the development environment, laying the groundwork for a planned AWS production deployment."
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Freelance",
+      position: "Full-stack Developer",
+      startDate: "July 2026",
+      endDate: "Present",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Delivered a full-stack appointment booking platform as freelance client work, using Next.js, TypeScript, Prisma ORM, and PostgreSQL now serving 10+ users.",
+        "Owned the entire build independently as sole freelance developer, from database architecture and backend logic through to frontend UI and deployment on Vercel.",
+        "Managed the client relationship directly throughout development, translating business requirements, booking flow, appointment scheduling, client management — into technical decisions without a team or spec handoff.",
       ],
-    },
-    {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "Glowbank Application",
+      summary: "A banking application simulating transfers, withdrawals, and deposits using React, Node.js, Express, MongoDB.",
+      linkSource: "https://github.com/glowzaq/glowbank",
+      linkPreview: "https://glowbank.vercel.app",
+      image: "/glowbank.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      name: "WikiDev",
+      summary: "A developer-focused Q&A learning platform using Next.js, TypeScript, Node.js, MongoDB, and GraphQL.",
+      linkPreview: "https://wikidev.onrender.com",
+      linkSource: "https://github.com/glowzaq/wikidev",
+      image: "/wikii.png",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      name: "E-Voting System",
+      summary: "An object-oriented architecture structuring voting logic, ballot handling, and result tabulation.",
+      linkPreview: "https://e-voting-system-exbn.onrender.com/",
+      linkSource: "https://github.com/glowzaq/e-voting-system",
+      image: "/evote.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
-    `,
-    image: "/alejandro-big.jpg",
+      Hi, I'm Inioluwa Akintokun, a Full Stack Developer who builds real applications for real clients not just polished side projects. My path here started somewhere unexpected: a degree in Crop Science, where I learned to think in systems, test assumptions, and work through problems methodically before touching a line of code.
+      I currently work full-time as a cybersecurity instructor, teaching network and application security to 20+ students, work that's sharpened how I think about authentication, data integrity, and explaining technical decisions clearly. Alongside that, I design and ship full-stack applications end-to-end for paying clients on a freelance basis, using Next.js, TypeScript, Node.js, and PostgreSQL. I'm now looking to bring that same hands-on delivery into a full-time development role.`,
+    image: "/ini-big1.jpeg",
   },
 };
 
