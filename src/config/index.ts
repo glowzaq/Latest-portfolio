@@ -6,7 +6,7 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "Full-Stack web developer specializing in web application development and maintenance for real clients.",
   lang: "en",
-  siteLogo: "/ini-small1.jpeg",
+  siteLogo: "/ini-small1.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
