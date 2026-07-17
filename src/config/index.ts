@@ -18,7 +18,7 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "Github", href: "https://github.com/glowzaq" },
   ],
   socialImage: "/new-port.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  canonicalURL: "https://latest-portfolio-flame-eight.vercel.app/",
 };
 
 export const SITE_CONTENT: SiteContent = {
