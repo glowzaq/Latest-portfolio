@@ -76,7 +76,7 @@ export const SITE_CONTENT: SiteContent = {
     {
       name: "WikiDev",
       summary: "A developer-focused Q&A learning platform using Next.js, TypeScript, Node.js, MongoDB, and GraphQL.",
-      linkPreview: "https://wikidev.onrender.com",
+      linkPreview: "https://wikidev-gamma.vercel.app/",
       linkSource: "https://github.com/glowzaq/wikidev",
       image: "/wikii.png",
     },
